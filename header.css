@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "Work Sans", serif;
+}
+
+.hero {
+  font-family: "Work Sans", sans-serif;
+  position: absolute;
+  width: 100%;
+  min-width: 1225px;
+  max-width: 100%;
+  height: 808px;
+  background-position: center;
+  background-image: url(images/png/desktopHeader.png);
+  color: #ffffff;
+  background-repeat: no-repeat;
+}
+
+.heroPadding {
+  padding-top: 56px;
+  padding-left: 88px;
+  padding-right: 88px;
+}
+
+.storeName {
+  position: relative;
+}
+
+.cta {
+  position: relative;
+  min-width: 1125px;
+  max-width: 1340px;
+  max-height: 280px;
+  min-height: 280px;
+  background-image: url(/images/png/ctaBackgraund.png);
+  background-size: 100% auto;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.backCta {
+  min-width: 1125px;
+  max-width: 1340px;
+  max-height: 280px;
+  min-height: 280px;
+  border-radius: 10px;
+  background-size: 100% auto;
+  background-color: #ab04338a ;
+  padding: 0 !important;
+  justify-content: center;
+  align-content: center;
+}
+
+.cta div:first-child {
+  font-size: 46px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cta div:nth-child(2) {
+  width: 100%;
+}
+
+.cta div:last-child {
+  font-size: 24px;
+  max-width: 100%;
+  text-align: center;
+} 
+
+.cta div {
+  width: 100%;
+  text-align: center;
+  padding-block: 10px;
+}
+
+.cta button {
+  color: #ffffff;
+  background-color: #ff753a;
+  border-radius: 32px;
+  border: none;
+  width: 134px;
+  height: 34px;
+  font-size: 14px;
+}
+
+.brand-slogan {
+  font-size: 56px;
+  width: 579px;
+  height: 557px;
+  margin: 0;
+  align-content: center;
+}
+
+.nav-desktop {
+  display: flex;
+}
+
+.nav-desktop h1 {
+  width: 200px;
+  height: 55px;
+  margin: 0;
+  align-content: center;
+  font-weight: normal;
+}
+
+.nav-desktop div {
+  width: 100px;
+  height: 55px;
+  font-size: 16px;
+  align-content: center;
+}
+
+.nav-desktop img {
+  padding-right: 10px;
+}
+
+.nav-desktop div:nth-last-child(1) {
+  position: relative;
+  left: 300px;
+}
+
+.AllSite{
+  display: flex;
+}
