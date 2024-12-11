@@ -1,6 +1,8 @@
-.work-sans {
+@media screen and (max-width:1440px){
+  .work-sans {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
   }
+}
